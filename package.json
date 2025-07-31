@@ -1,0 +1,13 @@
+{
+  "name": "js-matrix",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "^8.1.3"
+  }
+}

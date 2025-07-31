@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+     overflow: hidden; /*Prevents scrollbars */
+    background: black;
+}
+
+video {display: block;}
+canvas { display: block; }
+#vcanvas{display: block;}

@@ -1,0 +1,31 @@
+{
+    "standard.autoFixOnSave": true,
+    "standard.enable": true,
+    "standard.validate": [
+        "javascript",
+        "html",
+        {
+            "language": "html",
+            "autoFix": true
+        }
+    ],
+    "standard.options": {
+        "globals": [
+            "$",
+            "jQuery",
+            "fetch",
+            "requestAnimationFrame"
+        ],
+        "ignore": [
+            "node_modules/**"
+        ],
+        "plugins":["html"]
+        
+    },
+    "standard.workingDirectories": [
+        "src/**/*.js"
+    ],
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+}

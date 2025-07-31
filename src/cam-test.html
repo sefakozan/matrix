@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video to ASCII</title>
+    <style>
+        #ascii {
+            font-family: monospace;
+            white-space: pre;
+            font-size: 8px;
+            line-height: 8px;
+        }
+        video, canvas {
+            display: block; /* Videoyu ve canvas'ı gizle */
+        }
+    </style>
+
+        <script src="cam-test-script.js" defer></script>
+</head>
+
+<body>
+    <video id="video" autoplay></video>
+    <canvas id="canvas"></canvas>
+    <canvas id="mcanvas"></canvas>
+    <div id="ascii"></div>
+</body>
+</html>
